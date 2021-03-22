@@ -1,9 +1,9 @@
-const btn = document.getElementById('btn');
+const btn = document.getElementById("btn");
 
-btn.addEventListener('click', () => {
+btn.addEventListener("click", () => {
   document.body.style.background = randomBg();
 });
 
 function randomBg() {
-  return `hsl(${Math.floor(Math.random() * 300)}, 100%, 50%)`;
-};
+  return `hsl(${Math.floor(Math.random() * 301)}, 80%, 40%)`;
+}
